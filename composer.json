@@ -1,0 +1,11 @@
+{
+    "name": "imlooke/installer",
+    "description": "Installer for imlooke app.",
+    "authors": [
+        {
+            "name": "lwx12525",
+            "email": "lwx12525@qq.com"
+        }
+    ],
+    "require": {}
+}
