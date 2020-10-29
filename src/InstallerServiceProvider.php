@@ -28,6 +28,7 @@ class InstallerServiceProvider extends ServiceProvider
             __DIR__ . '/../resources/views' => base_path('resources/views/vendor/installer'),
         ]);
         $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
+        $this->loadRoutesFrom(__DIR__ . '/../routes/api.php');
     }
 
     /**
